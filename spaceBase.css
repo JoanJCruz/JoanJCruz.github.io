@@ -1,0 +1,41 @@
+/*Joan J. Cruz*/
+body
+{
+   background-image: url("mosEisley.png");
+   /*Displays a picture of Mos Eisley Spaceport from Star Wars as the background image*/
+}
+h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+    font-weight: bold;
+}
+p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*The three previous sections stylize the overall text of the site*/
+.crapsButton
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: gold;
+    /*Stylizes the button for CRAPS. Chose gold because it's a gambling game, money is involved*/
+}
+.averageButton
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color:chartreuse
+    /*Stylizes the button for findAverage. No real reason for the color*/
+}
+.output
+{
+    font-family: 'Courier New', Courier, monospace;
+    /*This stylizes text output by Javascript so it stays consisten with the rest of the site*/
+}

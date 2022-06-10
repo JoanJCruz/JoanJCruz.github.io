@@ -1,0 +1,49 @@
+<!--Joan J. Cruz-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Base Casino</title>
+    <link rel= "stylesheet" href = "spaceBase.css">
+    <!--Links this html file to the css file-->
+    <script src="spaceBase.js"></script>
+    <!--Links this html file to the javascript file-->
+</head>
+<body>
+    <nav>
+        <a href="index.html">Main Page</a>
+        <!--Links to the landing page-->
+        <a href="boardObjectives.html">My Degree Objectives</a>
+        <!--Links to the board objectives page-->
+    </nav>
+    <h1>Welcome to Mos Eisley Spaceport</h1>
+    <h2>NOT the most wretched hive of scum and villainy<br></h2>
+    <p>Click below for music!</p>
+    <audio controls autoplay loop> 
+    <!--This line will make it so the audio plays and loops automatically when the page opens-->
+        <source src = "MosEisleyTheme.mp3" type="audio/mpeg">
+        <!--PLays the song from the Mos Eisley Cantina from Star Wars. Fits the space casino theme.-->
+    </audio>
+    <p>Start playing now, first day's on the house.<br></p>
+    <!--The text above will be displayed upon opening the site-->
+
+    <button class="crapsButton" onclick="diceRollGamble()">Play Craps</button>
+    <!--The button should start the game once clicked-->
+    <button class="averageButton" onclick="findAverage()">Get the Average</button>
+    <!--The button should find the average of the numbers rolled once clicked-->
+
+    <p><br></p> <!--This just adds an empty line to make things look neater-->
+
+    <div class = "output" id = "firstResult"></div>
+    <div class = "output" id = "secondResult"></div>
+    <div class = "output" id = "finalSum"></div>
+    <div class = "output" id = "average"></div>
+    <!--These will be used to print out the results of the dice rolls and other things
+        Also includes them in the output class so CSS can influence the JS output-->
+
+    <div class = "output" id = "didYouWin?"></div>
+    <!--This id will be used to tell the player whether they won, lost, or neither-->
+</body>
+</html>
